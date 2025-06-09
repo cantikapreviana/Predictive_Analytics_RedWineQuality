@@ -107,7 +107,7 @@ Berdasarkan data gambari diatas memiliki karakteristik, yaitu:
 
 ### EDA - Multivariate Analysis
 
-![Multivariate Analysis](https://i.ibb.co/yF8NQQTs/Multivarieta1.png)
+![Multivariate Analysis](https://i.ibb.co/DHNKRKnD/Multivarieta1.png)
 
 
 Gambar 2a. Analisis Multivariat
