@@ -177,6 +177,7 @@ Kerugian _KNN_ :
 
 _Random Forest_ adalah algoritma machine learning ensemble yang menggabungkan beberapa decision tree untuk meningkatkan akurasi prediksi. Algoritma ini bekerja dengan membuat banyak decision tree secara acak dan kemudian menggunakan voting untuk memprediksi kategori atau nilai data baru. Adapun parameter yang digunakan pada proyek ini adalah:
 - `max_depth` kedalaman maksimum.
+- `n_estimators` Jumlah pohon keputusan yang akan dibuat dalam ensemble.
 
 Keunggulan _Random Forest_ :
 - Memiliki akurasi prediksi yang tinggi.
@@ -227,9 +228,9 @@ Berikut hasil accuracy 3 buah model yang latih:
 
 | Model   | Accuracy |
 | --------- | ---------- |
-| KNN | 0.90 |
-| RandomForest  | 0.91 |
-| Gradient Boosting Classifier  | 0.90 |
+| KNN | 0.91 |
+| RandomForest  | 0.92 |
+| Gradient Boosting Classifier  | 0.91 |
 
 Tabel 3. Hasil Accuracy
 
@@ -237,7 +238,7 @@ Tabel 3. Hasil Accuracy
 
 Gambar 3. Visualisasi Accuracy Model
 
-Dilihat dari _Tabel 3. Hasil Accuracy_ dan _Gambar 3. Visualisasi Accuracy Model_ tersebut dapat diketahui bahwa model dengan algoritma _Rendom Forest Classifier _ memiliki Accuracy yang lebih tinggi dengan accuracy `92%` . Untuk itu model tersebut yang akan dipilih untuk digunakan. Diharapkan dengan model yang telah dikembangan dapat memprediksi kualitas Anggur merah dengan baik menggunakan _K-Nearest Neighbors (KNN)_. Alasan mengapa metode _KNN_ yang dipilih karena _KNN_ adalah algoritma yang sangat sederhana. Hal ini membuatnya lebih mudah untuk dipahami, diimplementasikan, dan diinterpretasikan. _KNN_ juga tidak memiliki banyak parameter yang perlu dioptimalkan, sehingga lebih mudah untuk digunakan.
+Dilihat dari _Tabel 3. Hasil Accuracy_ dan _Gambar 3. Visualisasi Accuracy Model_ tersebut dapat diketahui bahwa model dengan algoritma _Rendom Forest Classifier _ memiliki Accuracy yang lebih tinggi dengan accuracy `92%` . Untuk itu model tersebut yang akan dipilih untuk digunakan. Diharapkan dengan model yang telah dikembangan dapat memprediksi kualitas Anggur merah dengan baik menggunakan _Rendom Forest Classifier_. Alasan mengapa metode _Rendom Forest Classifier_ yang dipilih karena algoritma machine learning yang kuat, dan cocok untuk diguanakan untuk berbagai tugas termasuk regresi dan klasifikasi.Dalam tugas klasifikasi, _Random Forest Classifier_ memprediksi hasil kategoris berdasarkan data masukan. Klasifikasi ini menggunakan beberapa pohon keputusan dan menghasilkan label yang memiliki suara terbanyak di antara semua prediksi pohon individual.
 
 ## Referensi
 1. Cortez, P., Cerdeira, A., Almeida, F., Matos, T., & Reis, J. (2009). Modeling wine preferences by data mining from physicochemical properties. UCI Machine Learning Repository. https://archive.ics.uci.edu/dataset/186/wine+quality.
